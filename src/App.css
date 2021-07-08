@@ -1,0 +1,151 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+:root{
+  --primaryColor: #04c2c9;
+  --mainColor:#a6db15;
+  --mainBlack: #252934;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: rgb(56, 56, 56);
+  padding-top: 40px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+ 
+}
+.sectionppage{
+  padding: 20px 0px 70px 0px;
+}
+.sectionppage h1 .underline{
+  width: 6%;
+  position: relative;
+  top: -15px;
+  border-bottom: 4px solid var(--mainColor);
+}
+.footer{
+  background: #1b242f;
+  padding: 85px 0px 60px 0px;
+  color: white
+}
+.footer ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
+  
+}
+.footer ul li{
+  display: inline;
+  margin: 40px;
+  background: #262f38;
+  padding: 20px; 
+  transition: 0.4s all ease; 
+  border-block-width: 1px;
+  /* position: relative; */
+}
+.footer a{
+  text-decoration: none;
+}
+.footer ul li:hover{
+  background:  #33788d;
+  border:2px solid #3d5f69; 
+}
+.footer a:hover{
+  text-decoration: none;
+}
+.footer .social-icons{
+  color: white;
+  font-size: 20px;
+}
+.footer h6{
+  color:#4a535c;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.footer h6 .unique-color{
+  color: var(--primaryColor);
+}
+
+.contact{
+  /* height: 200px; */
+  width: 100%;
+  background: var(--mainBlack);
+}
+.contact h1{
+  color: white;
+}
+.contact p{
+  color: var(--primaryColor)
+}
+.contact-form{
+  overflow: hidden;
+}
+.contactdiv{
+  margin-bottom: 20px;
+}
+.inputfield{
+  width: 40%;
+  height: 40px;
+  background: #1b242f;
+  border: none;
+  color: #4a535c;
+  text-transform: uppercase;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.textarea{
+  width: 40%;
+  background: #1b242f;
+  border: none;
+  color: #4a535c;
+  text-transform: uppercase;
+  padding-left: 10px;
+  font-weight: bold;
+}
+@media screen and (max-width: 900px){
+  .inputfield, .textarea{
+    width: 80%;
+  }
+  
+}
