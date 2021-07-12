@@ -79,10 +79,10 @@
     color: white;
     cursor:pointer;
     transition: 0.4s all ease; 
+    font-weight: 600; 
 }
 .navbar ul li:hover{
     color:#c3eb14;
-    font-weight: bold; 
     display: block;
     text-decoration: underline;
     

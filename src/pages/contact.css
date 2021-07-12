@@ -1,0 +1,52 @@
+.contact{
+    width: 100%;
+    background: var(--mainBlack);
+  }
+  .contact h1{
+    color: white;
+  }
+  .contact p{
+    color: var(--primaryColor)
+  }
+  .contact-form{
+    overflow: hidden;
+  }
+  .contactdiv{
+    margin-bottom: 20px;
+  }
+  .inputfield{
+    width: 40%;
+    height: 40px;
+    background: #1b242f;
+    border: none;
+    color: #4a535c;
+    padding-left: 10px;
+    font-weight: bold;
+    outline: none;
+  }
+  .textarea{
+    width: 40%;
+    background: #1b242f;
+    border: none;
+    color: #4a535c;
+    padding-left: 10px;
+    font-weight: bold;
+    outline: none;
+  }
+  
+
+  @media screen and (max-width: 900px){
+    .inputfield, .textarea{
+      width: 80%;
+    }
+    
+  }
+  .contactdiv button{
+      /* display: none; */
+      float: right;
+      margin-right: 30vw;
+      padding: 10px 30px;
+      background: var(--primaryColor);
+      color: #fff;
+      font-weight: 700;
+  }

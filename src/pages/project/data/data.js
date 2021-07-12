@@ -26,5 +26,19 @@ import project3 from  '../images/project-3.PNG';
             "temmy":"Temmy Design",
             "code":"React JS",
            
+        },
+        {
+            "id" :"4",
+            "dataImage": project1,
+            "temmy":"Temmy Design",
+            "code":"React JS",
+            
+        },
+        {
+            "id" :"5",
+            "dataImage": project1,
+            "temmy":"Temmy Design",
+            "code":"React JS",
+            
         }
     ]

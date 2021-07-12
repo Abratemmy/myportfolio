@@ -1,42 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 :root{
   --primaryColor: #04c2c9;
   --mainColor:#a6db15;
@@ -107,45 +68,44 @@ p{
   color: var(--primaryColor);
 }
 
-.contact{
-  /* height: 200px; */
-  width: 100%;
-  background: var(--mainBlack);
-}
-.contact h1{
-  color: white;
-}
-.contact p{
-  color: var(--primaryColor)
-}
-.contact-form{
-  overflow: hidden;
-}
-.contactdiv{
-  margin-bottom: 20px;
-}
-.inputfield{
-  width: 40%;
-  height: 40px;
-  background: #1b242f;
-  border: none;
-  color: #4a535c;
-  text-transform: uppercase;
-  padding-left: 10px;
-  font-weight: bold;
-}
-.textarea{
-  width: 40%;
-  background: #1b242f;
-  border: none;
-  color: #4a535c;
-  text-transform: uppercase;
-  padding-left: 10px;
-  font-weight: bold;
-}
-@media screen and (max-width: 900px){
-  .inputfield, .textarea{
-    width: 80%;
-  }
-  
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

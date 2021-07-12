@@ -6,15 +6,15 @@ import {NavLink }from 'react-router-dom';
 import project from './data/data.js';
 
 const Project=()=>{
-    const [posts, setPosts] = useState([]);
+    // const [posts, setPosts] = useState([]);
    
 
-    useEffect(()=>{
-        const posts = project;
-        setPosts(posts);
-    }, [posts]);
+    // useEffect(()=>{
+    //     const posts = project;
+    //     setPosts(posts);
+    // }, [posts]);
 
-
+    
     return (
         <div className="project sectionppage" id="project">
             <center className="">
@@ -34,14 +34,19 @@ const Project=()=>{
                                             <p className="wow slideInDown" >{data.temmy}<br />
                                             <span>{data.code}</span>
                                             </p>
-                                        <div className="portfolio-btn">
-                                           View site
-                                        </div>
+                                            <NavLink  to={`/learnmore/${data.id}`} className="sidebarNavlink" >
+                                                <div className="portfolio-btn">
+                                                    View site
+                                                </div>
+                                            </NavLink>
                                         </center>
                                     </div>                    
                                 </div>
                         })
                     }
+                    <div className=""key={data.id}>
+                    
+                    </div>
                 </div>
             </div>
         </div>
