@@ -4,7 +4,8 @@ import './contact.css'
 export class Contact extends Component {
     render() {
         return (
-            <div className="contact sectionppage" id="contact">
+            <div id="contact">
+            <div className="contact sectionppage" >
                 <center className="">
                     <h1>Contact
                     <span><hr className="underline" /></span>
@@ -30,6 +31,7 @@ export class Contact extends Component {
                         </div>
                     </div>
                 </center>
+            </div>
             </div>
         )
     }

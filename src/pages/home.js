@@ -1,18 +1,25 @@
 import React, { Component } from 'react';
 import {Link } from 'react-scroll';
 import './home.css';
-import {BsArrowRight} from "react-icons/bs"
+import {BsArrowRight} from "react-icons/bs";
+// import {MdEmail} from 'react-icons/md'
 
 export class Home extends Component {
     constructor(){
         super();
         this.state = {
-            scrolled: false
+            scrolled: false,
+            click: false
         };
+    }
+    handleClick=()=>{
+        this.setState= ({
+            click: !this.state.click
+        })
     }
     componentDidMount(){
         window.addEventListener('scroll', () =>{
-            const isTop = window.scrollY < 100;
+            const isTop = window.scrollY < 500;
             if (isTop !== true){
                 this.setState({scrolled: true});
             } else{
@@ -21,9 +28,9 @@ export class Home extends Component {
         });
     }
 
-    // componentWillUnmount(){
-    //     window.removeEventListener('scroll')
-    // }
+    componentWillUnmount(){
+        window.removeEventListener('scroll')
+    }
 
 
     render() {
@@ -38,21 +45,25 @@ export class Home extends Component {
                         </Link>
                         
                     </center>
+
+
+                    <div className={this.state.scrolled ?'Navbar scrolled': 'Navbar'}>
+                        <div >
+                            <ul className="">
+                                <li className="active"><Link to = 'main' activeClass="active" spy="true" className=" navbar-link" >Home</Link></li>
+                                <li><Link to ='about'activeClass="active" spy="true"  className=" navbar-link">About</Link></li>
+                                <li><Link to= 'project'activeClass="active" spy="true"  className=" navbar-link">Portfolio</Link></li>
+                                <li><Link to= 'blog' activeClass="active" spy="true" className=" navbar-link">Blog</Link></li>
+                                <li><Link to= 'contact'activeClass="active" spy="true"  className=" navbar-link">Contact</Link></li>
+                            </ul>
+                        </div>
+                        {/* <div className="" onClick={this.handleClick(
+                            
+                        )}>
+                            
+                        </div> */}
+                    </div>
                 </div>
-
-                <div className={this.state.scrolled ?'navbar scrolled': 'navbar'} style={{overflow:'hidden'}}>
-                    <nav className="">
-                        <ul className="">
-                            <li><Link to = 'main' >Home</Link></li>
-                            <li><Link to ='about'>About</Link></li>
-                            <li><Link to= 'project'>Portfolio</Link></li>
-                            <li><Link to= 'blog'>Blog</Link></li>
-                            <li><Link to= 'contact'>Contact</Link></li>
-                        </ul>
-                    </nav>
-                </div> 
-
-            
                 
             </div>
         )

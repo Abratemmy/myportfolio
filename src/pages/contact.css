@@ -17,18 +17,18 @@
   .inputfield{
     width: 40%;
     height: 40px;
-    background: #1b242f;
+    background: var(--mainDark);
     border: none;
-    color: #4a535c;
+    color: #fff;
     padding-left: 10px;
     font-weight: bold;
     outline: none;
   }
   .textarea{
     width: 40%;
-    background: #1b242f;
+    background: var(--mainDark);
     border: none;
-    color: #4a535c;
+    color: #fff;
     padding-left: 10px;
     font-weight: bold;
     outline: none;
