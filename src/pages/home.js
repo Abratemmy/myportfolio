@@ -62,10 +62,10 @@ export class Home extends Component {
                                 <li><Link to= 'blog' activeClass="active" spy="true" className=" navbar-link">Blog</Link></li>
                                 <li><Link to= 'contact'activeClass="active" spy="true"  className=" navbar-link">Contact</Link></li>
                             </ul>
-                            <div className="nav-icon" onClick={()=>this.handleClick}>
-                                {this.state.click ? "yes" : "no"}
-                                {/* {this.state.click === true ? <div><span className="" onClick={this.handleClick}><FiXCircle /></span></div>:
-                                <div><span className="" onClick={this.handleClick}><FiAlignRight /></span></div>} */}
+                            <div className="nav-icon" onClick={this.handleClick}>
+                                {/* {this.state.click ? "yes" : "no"} */}
+                                {this.state.click === true ? <div><span className="" onClick={this.handleClick}><FiXCircle /></span></div>:
+                                <div><span className="" onClick={this.handleClick}><FiAlignRight /></span></div>}
                               
                             </div>
                         </div>
