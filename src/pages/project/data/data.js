@@ -10,6 +10,7 @@ import project3 from  '../images/project-3.PNG';
             "dataImage": project1,
             "temmy":"Temmy Design",
             "code":"React JS",
+            "url":"https://evernall.com"
             
         },
         
@@ -17,28 +18,30 @@ import project3 from  '../images/project-3.PNG';
             "id" :"2",
             "dataImage":project2,
             "temmy":"Temmy Design",
-            "code":"React JS",
+            "code":"Under-construction",
+            "url":"https://abratemmy.github.io/omakwaenergyplc"
           
         },
         {
             "id" :"3",
             "dataImage":project3,
             "temmy":"Temmy Design",
-            "code":"React JS",
+            "code":"under-construction",
+            "url":"https://abratemmy.github.io/joywebproject"
            
         },
-        {
-            "id" :"4",
-            "dataImage": project1,
-            "temmy":"Temmy Design",
-            "code":"React JS",
+        // {
+        //     "id" :"4",
+        //     "dataImage": project1,
+        //     "temmy":"Temmy Design",
+        //     "code":"React JS",
             
-        },
-        {
-            "id" :"5",
-            "dataImage": project1,
-            "temmy":"Temmy Design",
-            "code":"React JS",
+        // },
+        // {
+        //     "id" :"5",
+        //     "dataImage": project1,
+        //     "temmy":"Temmy Design",
+        //     "code":"React JS",
             
-        }
+        // }
     ]

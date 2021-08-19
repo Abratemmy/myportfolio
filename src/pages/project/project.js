@@ -34,11 +34,11 @@ const Project=()=>{
                                             <p className="wow slideInDown" >{data.temmy}<br />
                                             <span>{data.code}</span>
                                             </p>
-                                            <NavLink  to={`/learnmore/${data.id}`} className="sidebarNavlink" >
+                                            <a href={data.url} className="sidebarNavlink" >
                                                 <div className="portfolio-btn">
                                                     View site
                                                 </div>
-                                            </NavLink>
+                                            </a>
                                         </center>
                                     </div>                    
                                 </div>

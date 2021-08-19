@@ -1,3 +1,18 @@
+.zuri-logo{
+    color:#fff;
+    transition: 0.4s all ease;
+}
+.zuri-logo h2{
+    padding-left: 70px;
+    padding-top: 40px;
+}
+.zuri-logo span{
+    color:red;
+}
+.zuri-logo:hover{
+    text-decoration: none;
+    color: var(--mainColor);
+}
 .homepage-wrapper{
     background-color: var(--mainDark);
     /* background-image: url(./tope.jpg); */
@@ -41,7 +56,19 @@
 .home-button:hover .home-arrow{
     transform: rotate(90deg);
 }
-.Nav{}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav .logo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 70px;
+}
+.nav .logo span{
+    color:var(--mainColor)
+}
 
 .Navbar{   
     background-color: var(--mainBlack);
@@ -89,6 +116,42 @@
     color: var(--mainColor);
     text-decoration: none;
   
+}
+.nav-icon{
+    display: none;
+    cursor:pointer;
+}
+@media screen and (max-width:960px){
+    .nav-icon{
+        display: block;
+    }
+    .navbar-link{
+        display: none;
+       
+        align-items: center;
+    }
+    .nav-icon:hover {
+        display:block;
+        color:var(--mainColor);
+    }
+    .nav-icon:hover ul{
+        display: block;
+        margin-top: 50px;
+        background: blue;
+    }
+    .homepage-text{
+   
+        font-size: 25px;
+    }
+    .home-button{
+        font-family: 'Source Serif Pro', serif;
+        font-size: 20px;
+        border: 1px solid white;
+        padding: 10px 20px;
+        width: 100%;
+        margin-top: 35px;
+    
+    }
 }
 /* .navbar-link:hover::after{
     content:'';

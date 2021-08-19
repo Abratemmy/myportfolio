@@ -29,9 +29,9 @@ const App = () =>{
        <div className="footer">
           <center>
             <ul>
-              <li><a href="" target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaFacebookF className="social-icons "/> </a> </li>
-              <li><a href="" target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaTwitter className="social-icons"/> </a> </li>
-              <li><a href="" target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaLinkedin className="social-icons"/> </a> </li>
+              <li><a href="https://web.facebook.com/temitope.adeniyi.507" target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaFacebookF className="social-icons "/> </a> </li>
+              <li><a href="https://web.facebook.com/temitope.adeniyi.507" target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaTwitter className="social-icons"/> </a> </li>
+              <li><a href="https://web.facebook.com/temitope.adeniyi.507" target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaLinkedin className="social-icons"/> </a> </li>
             </ul>
 
             <h6>Adeniyi Temitope <span className="unique-color">&copy;2021 </span></h6>
