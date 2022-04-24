@@ -1,12 +1,10 @@
-
-
 .portfolio{
     width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
     grid-row-gap: 2rem;
-    grid-column-gap: 5px;
+    grid-column-gap: 14px;
     position: relative;
     
 }
@@ -51,7 +49,6 @@
     margin-top: 50px;
     transition: 0.4s all ease;
     position: relative;
-    
 }
 .portfolio-btn:hover{
     background-color: var(--mainColor)!important;

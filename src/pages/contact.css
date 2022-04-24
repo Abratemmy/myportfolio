@@ -24,6 +24,11 @@
     font-weight: bold;
     outline: none;
   }
+  .contactdiv p{
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+  }
   .textarea{
     width: 40%;
     background: var(--mainDark);

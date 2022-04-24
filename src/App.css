@@ -3,6 +3,10 @@
   --mainColor:#a6db15;
   --mainDark: #252934;
   --mainBlack: #1f2027;
+  --logoText:'Updock', cursive;
+  --logo2Text: 'Neonderthaw', cursive;
+  --headingFamily: 'Raleway', sans-serif;
+  --textFamily: 'Open Sans', sans-serif;
 }
 h1{
   font-family: 'Raleway', sans-serif;
@@ -17,7 +21,7 @@ p{
  
 }
 .sectionppage{
-  padding: 70px 0px 70px 0px;
+  padding: 40px 0px 40px 0px;
 }
 .sectionppage h1 .underline{
   width: 6%;
@@ -67,6 +71,45 @@ p{
 }
 .footer h6 .unique-color{
   color: var(--primaryColor);
+}
+
+.successform{
+  position: fixed!important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(37, 34, 37, 0.986), rgba(36, 30, 30, 0.986)), url("./images/portfoliobg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:999;
+  color: #fff;
+}
+.success-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--textFamily);
+  text-align: center;
+
+}.success-container h2{
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.success-but{
+  margin: 40px auto;
+  border: 2px solid var(--primaryColor);
+  width: 200px;
+  background: transparent;
+}
+.success-btn{
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.success-btn:hover{
+  color: var(--primaryColor);
+  text-decoration: none;
 }
 
 

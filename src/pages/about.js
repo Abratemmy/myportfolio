@@ -23,7 +23,7 @@ export class About extends Component {
 
                                     </div>
                                     <h3>Fast</h3>
-                                    <p>Fast load times and lag free interaction, my highest priority. </p>
+                                    <p>My website load fast enough to show visitors what they are looking for? Fast load times and lag free interaction, my highest priority. </p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6 aboutcol">
@@ -32,7 +32,7 @@ export class About extends Component {
                                     
                                     </div>
                                     <h3>Responsive</h3>
-                                    <p>My layouts will work on any device, big or small. </p>
+                                    <p>I build a responsive website that change its layout and options to fit the device and browser size. My layouts will work on any device, big or small. </p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6 aboutcol">
@@ -41,7 +41,7 @@ export class About extends Component {
                                     
                                     </div>
                                     <h3>Intuitive</h3>
-                                    <p>Strong preference for easy to use, intuitive UX/UI. </p>
+                                    <p>I build a website that is easy to use and navigate. I also have strong preference for intuitive UX/UI. </p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6 aboutcol">
@@ -64,9 +64,10 @@ export class About extends Component {
                                 <img src={img1} alt=""  />
                             </div>
                             <h3 className="text-center">Who's this lady?</h3>
-                            <p>I am a Frontend Developer. I work as a freelancer.  I design to the taste of the Users. I give Users easy access to work with my designs.
-                            I love when animation is on the webpage. 
-                                I like to use technology to change the face of the world.
+                            <p><span>Olasode Temitope </span>is a Frontend Developer from Nigeria looking to break into the tech space
+                                and collaborate to create interactive web products. I design to the taste of the Users
+                                and give Users easy access to work with my designs.
+                                I love when animation is on the webpage. 
                             </p>
                         </div>
 
@@ -93,11 +94,11 @@ export class About extends Component {
                                 <span >80%</span>
                             </div>
                             <div className="flexbox">                          
-                                <div className="bar fill" style={{width: '60%'}} >
+                                <div className="bar fill" style={{width: '70%'}} >
                                     <div className="tag bold ">JavaScript</div>
                                     <div className="flex"></div>
                                 </div>
-                                <span >60%</span>
+                                <span >70%</span>
                             </div>
                             <div className="flexbox">                          
                                 <div className="bar fill" style={{width: '70%'}} >

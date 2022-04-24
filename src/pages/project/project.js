@@ -28,13 +28,12 @@ const Project=()=>{
                     {data.map(data=>{
                             return<div className="portfolio-container" key={data.id}>
                                 <img src= {data.dataImage} className="portfolio-image"/>
-                                
                                     <div className="portfolio-hover" >
                                         <center>
                                             <p className="wow slideInDown" >{data.temmy}<br />
                                             <span>{data.code}</span>
                                             </p>
-                                            <a href={data.url} className="sidebarNavlink" >
+                                            <a href={data.url} className="sidebarNavlink" style={{textDecoration:"none"}} >
                                                 <div className="portfolio-btn">
                                                     View site
                                                 </div>

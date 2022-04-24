@@ -10,8 +10,6 @@ import Project from './pages/project/project';
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-
-
 const App = () =>{
   useEffect(() =>{
     Aos.init({duration: 1500});
@@ -20,12 +18,11 @@ const App = () =>{
 
   return (
     <div className="App">
-       {/* <Router /> 
-       <Contact /> */}
+        <Router />
        <div className="wow bounceUp"><Home /></div>
        <About />
        <Project />
-       <Contact />
+       <Contact /> 
        <div className="footer">
           <center>
             <ul>
@@ -37,6 +34,7 @@ const App = () =>{
             <h6>Adeniyi Temitope <span className="unique-color">&copy;2021 </span></h6>
           </center>
        </div>
+       
     </div>
   );
 }

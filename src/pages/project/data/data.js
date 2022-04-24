@@ -10,7 +10,7 @@ import project3 from  '../images/project-3.PNG';
             "dataImage": project1,
             "temmy":"Temmy Design",
             "code":"React JS",
-            "url":"https://evernall.com"
+            "url":"https://mynewdawn.org.ng/"
             
         },
         
@@ -19,7 +19,7 @@ import project3 from  '../images/project-3.PNG';
             "dataImage":project2,
             "temmy":"Temmy Design",
             "code":"Under-construction",
-            "url":"https://abratemmy.github.io/omakwaenergyplc"
+            "url":"https://omakwaenergy.com"
           
         },
         {
@@ -27,16 +27,16 @@ import project3 from  '../images/project-3.PNG';
             "dataImage":project3,
             "temmy":"Temmy Design",
             "code":"under-construction",
-            "url":"https://abratemmy.github.io/joywebproject"
+            "url":"https://ges.joyagunbiade.com"
            
         },
-        // {
-        //     "id" :"4",
-        //     "dataImage": project1,
-        //     "temmy":"Temmy Design",
-        //     "code":"React JS",
-            
-        // },
+        {
+            "id" :"4",
+            "dataImage": project1,
+            "temmy":"Temmy Design",
+            "code":"React JS",
+            "url":"https://evernall.com"
+        }
         // {
         //     "id" :"5",
         //     "dataImage": project1,

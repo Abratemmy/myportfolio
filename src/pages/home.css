@@ -1,26 +1,64 @@
-.zuri-logo{
-    color:#fff;
-    transition: 0.4s all ease;
-}
-.zuri-logo h2{
-    padding-left: 70px;
-    padding-top: 40px;
-}
-.zuri-logo span{
-    color:red;
-}
-.zuri-logo:hover{
-    text-decoration: none;
-    color: var(--mainColor);
-}
 .homepage-wrapper{
-    background-color: var(--mainDark);
-    /* background-image: url(./tope.jpg); */
-    height: 106vh;
+    background:linear-gradient(180deg, rgba(37, 34, 37, 0.986), rgba(36, 30, 30, 0.938)), url("../images/portfoliobg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     color: white;
     font-size: 30px;   
     position: relative; 
-    /* margin-bottom: 20px; */
+    width: 100%;
+    padding: 30px 0px; 
+}
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-top .email{
+    padding-top: 17px;
+}
+.nav-top .email-link{
+    color: var(--primaryColor);
+    transition: 0.4s all ease;
+}
+.nav-top .email-link:hover{
+    color: var(--mainColor)
+}
+.homepage-wrapper .link{
+    text-decoration: none;
+    transition: 0.4s all ease;
+    cursor: pointer;
+    color:#fff
+}
+.homepage-wrapper .link:hover{
+    color: transparent
+}
+.homepage-wrapper .logo1{
+    font-family:  var(--logoText);
+    font-size: 80px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    font-style: normal;
+    color:#fff
+
+}
+.homepage-wrapper .logo2{
+    background: -webkit-linear-gradient(#04c2c9, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.homepage-wrapper sub{
+    color: #fff;
+    position: relative;
+    left: -3px;
+    font-family: var(--textFamily);
+    font-weight: bold;
+}
+.homepage-wrapper .logo3{
+    color: var(--mainColor)
+}
+.homepage-wrapper .logo2{
+    color: var(--primaryColor)
 }
 .homepage-text{
     position: absolute;
@@ -75,7 +113,7 @@
     bottom:0px;
     position: absolute;
     width: 100%;
-    height: 70px;
+    height: 80px;
     z-index: 1;
     transition: 0.4s all ease;
     border-bottom: 2px solid var(--primaryColor);
@@ -91,12 +129,13 @@
 }
 .Navbar ul li{
     font-size: 17px;
-    margin-right: 30px;
-    padding: 20px 0px;
+    margin-right: 50px;
+    padding-top: 26px;
     font-weight: 500;
     cursor: pointer;
     transition: 0.4s all ease-out;
     text-transform: uppercase;
+    text-align: center;
 }
 .scrolled{
     position: fixed;
@@ -109,26 +148,81 @@
     color: white;
     border: none;
     transition: 0.2s all ease;
-
 }
 
-.navbar-link:hover, .active{
+.navbar-link:hover{
+    color: var(--primaryColor)
+}
+.active{
     color: var(--mainColor);
-    text-decoration: none;
-  
+    text-decoration: none; 
 }
 .nav-icon{
     display: none;
     cursor:pointer;
 }
+@media screen and (max-width: 760px){
+    .homepage-wrapper{
+        background:linear-gradient(180deg, rgba(37, 34, 37, 0.986), rgba(36, 30, 30, 0.938)), url("../images/portfoliobg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        color: white;
+        font-size: 30px;   
+        position: relative; 
+        width: 100%;
+        padding: 30px 0px; 
+    }
+    .homepage-text{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-40%, -40%);
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+    }
+    .nav .logo{
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+}
 @media screen and (max-width:960px){
     .nav-icon{
         display: block;
     }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -110%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        text-align: left;
+        color: #fff;
+    }
+    .nav-menu.active {
+        background: var(--primaryColor);
+        left: 0px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1; 
+    }
+    .Navbar ul{
+        align-items: left;
+    }
     .navbar-link{
-        display: none;
-       
-        align-items: center;
+        color: white;
+        border: none;
+        transition: 0.2s all ease;
+        text-align: left;
+    }
+    .navbar-link:hover, .active{
+        color: var(--mainColor);
+        text-decoration: none; 
     }
     .nav-icon:hover {
         display:block;
@@ -137,7 +231,6 @@
     .nav-icon:hover ul{
         display: block;
         margin-top: 50px;
-        background: blue;
     }
     .homepage-text{
    
@@ -153,16 +246,32 @@
     
     }
 }
-/* .navbar-link:hover::after{
-    content:'';
-    border-bottom: 4px solid white;
-    top: 50px!important;
-    position: absolute
-} */
 
 
 
 /* about */
+.aboutcol p{
+    font-family: var(--textFamily);
+    text-align: justify;
+    line-height: 27px;
+    font-weight: 550
+}
+.about-section p{
+    font-family: var(--textFamily);
+    text-align: justify;
+    line-height: 27px;
+    font-weight: 550;
+}
+.about-section p::first-letter {
+    float: left;
+    font-size: 75px;
+    line-height: 50px;
+  }
+.about-section p span{
+    font-weight: 600;
+    color: var(--primaryColor);
+    font-size: 20px
+}
 .about-image{
     padding-bottom: 30px;
     border-radius: 50%;
